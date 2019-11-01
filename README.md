@@ -1,4 +1,8 @@
 
+### pull image
+```
+docker pull oni001/firstrepo:2
+```
 
 ### run image
 ```
