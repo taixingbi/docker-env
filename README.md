@@ -31,4 +31,12 @@ npm -v
 nano
 ```
 
+#### thriveeupdate
+
+```
+npm run build:dll 
+npm i
+```
+
+
 
