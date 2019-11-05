@@ -9,12 +9,12 @@ docker pull taixingbi/thriveethemeupdate
 docker run -dit -p 8083:80/tcp -v ~/code:/code ubuntu
 ```
 
-### run container
+### access container
 ```
 docker exec -it containerId bash   
 ```
 
-### in ubuntu, intall git npm nano 
+### in container, intall git npm nano 
 ```
 apt-get update
 apt-get install git  
