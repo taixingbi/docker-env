@@ -26,6 +26,7 @@ apt-get install npm
 apt-get install nano
 ```
 
+localhost:80
 ### check -v
 ```
 git 
