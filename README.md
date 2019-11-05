@@ -17,9 +17,10 @@ docker exec -it containerId bash
 
 ### in ubuntu, intall git npm nano 
 ```
-apt-get update && apt-get install git  
-apt-get update && apt-get install npm 
-apt-get update && apt-get install nano
+apt-get update
+apt-get install git  
+apt-get install npm 
+apt-get install nano
 ```
 
 #### check -v
