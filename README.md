@@ -23,7 +23,7 @@ apt-get install npm
 apt-get install nano
 ```
 
-#### check -v
+### check -v
 ```
 git 
 node -v
@@ -31,11 +31,13 @@ npm -v
 nano
 ```
 
-#### thriveeupdate
+### thriveeupdate
+copy .env
 
 ```
 npm run build:dll 
 npm i
+npm start
 ```
 
 
