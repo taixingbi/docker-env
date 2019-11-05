@@ -22,5 +22,12 @@ apt-get update && apt-get install npm
 apt-get update && apt-get install nano
 ```
 
+#### check -v
+```
+git 
+node -v
+npm -v
+nano
+```
 
 
