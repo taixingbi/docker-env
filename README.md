@@ -7,7 +7,7 @@ docker pull ubuntu:16.04
 
 ### run image
 ```
-docker run -dit -p 8080:80/tcp -v ~/code:/code ubuntu
+docker run -dit -p 8083:80/tcp -v ~/code:/code ubuntu
 
 docker run -dit -p 127.0.0.1:80:80/tcp -v ~/code:/code  imageId
 
@@ -26,7 +26,7 @@ apt-get install npm
 apt-get install nano
 ```
 
-localhost:80
+localhost:8083
 ### check -v
 ```
 git 
