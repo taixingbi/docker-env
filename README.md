@@ -17,11 +17,7 @@ docker exec -it containerId bash
 
 ### ubuntu shell
 ```
-apt-get update    
-apt-get install git    
-apt-get install npm
-apt-get install nano
-
+apt-get update && apt-get install git && apt-get install npm && apt-get install nano
 ```
 
 
