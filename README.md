@@ -41,13 +41,12 @@ npm start
 ```
 
 
-### more docker 
-#### run Dockerfile
+### run Dockerfile
 docker build -t thriveeupdate:dev .   
 docker run -v ~/code/thriveeupdate:/thriveeupdate -p 8083:80 --rm thriveeupdate:dev 
 
 
-
+### more docker 
 ```
 docker stop $(docker ps -aq)    
 docker rm $(docker ps -aq)    
