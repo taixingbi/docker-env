@@ -12,8 +12,6 @@ docker run -dit -p 8083:80/tcp -v ~/code:/code ubuntu
 ### run container
 ```
 docker exec -it containerId bash   
-docker exec -ti containerId /bin/sh     
-
 ```
 
 ### in ubuntu, intall git npm nano 
