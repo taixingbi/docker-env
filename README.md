@@ -36,7 +36,7 @@ npm start
 ```
 open http://localhost:8083/
 
-### go back sources code 
+### access sources code  in mac
 ```
 cd ~/code/thriveethemeupdate
 ```
