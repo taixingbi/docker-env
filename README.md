@@ -29,7 +29,9 @@ docker exec -it containerId bash
 
 ### thriveeupdate
 ```
-cd code/thriveethemeupdate
+cd code
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/thriveethemeupdate
+cd thriveethemeupdate
 npm i
 npm run build:dll 
 npm start
