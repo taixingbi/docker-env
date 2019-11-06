@@ -5,7 +5,7 @@ cd ~ && mkdir code && cd code
 git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/thriveethemeupdate
 cd thriveethemeupdate
 git checkout development
-touch .env
+touch .env && open .env
 ```
 then copy paste .env file
 
