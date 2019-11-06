@@ -1,15 +1,4 @@
-# clone source codes 
-### 
-```
-cd ~ && mkdir code && cd code
-git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/thriveethemeupdate
-cd thriveethemeupdate
-git checkout development
-touch .env && open .env
-```
-then copy paste .env file
 
----
 # build docker of thriveethemeupdate 
 
 ### pull image
@@ -32,16 +21,23 @@ docker exec -it containerId bash
 cd code
 git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/thriveethemeupdate
 cd thriveethemeupdate
+git checkout development
 npm i
 npm run build:dll 
-npm start
 ```
-open http://localhost:8083/
-
 ### access sources code  in mac
 ```
 cd ~/code/thriveethemeupdate
+touch .env && open .env
 ```
+then copy paste .env file
+
+### run app in container
+```
+npm start
+```
+then open http://localhost:8083/
+
 
 ### del all dockers
 ```
