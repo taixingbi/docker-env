@@ -1,8 +1,14 @@
+# clone source codes 
+### 
+```
+cd ~ && mkdir code && cd code
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/thriveethemeupdate
+cd thriveethemeupdate
+touch .env
+```
 
-
-
-
-
+---
+# build docker of thriveethemeupdate 
 
 ### pull image
 ```
@@ -11,7 +17,7 @@ docker pull taixingbi/thriveethemeupdate
 
 ### run image
 ```
-docker run -dit -p 8083:80/tcp -v ~/code:/code ubuntu
+docker run -dit -p 8083:80/tcp -v ~/code:/code imageId
 ```
 
 ### access container
@@ -19,21 +25,13 @@ docker run -dit -p 8083:80/tcp -v ~/code:/code ubuntu
 docker exec -it containerId bash   
 ```
 
-
-
 ### thriveeupdate
-copy .env
-
 ```
+cd code/thriveethemeupdate
 npm run build:dll 
 npm i
 npm start
 ```
-
-
-### run Dockerfile
-docker build -t thriveeupdate:dev .   
-docker run -v ~/code/thriveeupdate:/thriveeupdate -p 8083:80 --rm thriveeupdate:dev 
 
 
 ### del all dockers
@@ -44,7 +42,7 @@ docker rmi $(docker images -q)
 ```
 
 ---
-# set up image of thriveethemeupdate based on ubuntu:16.04
+# build image of thriveethemeupdate based on ubuntu:16.04
 ### pull image
 ```
 docker pull ubuntu:16.04
