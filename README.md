@@ -35,7 +35,7 @@ npm start
 docker build -t thriveeupdate:dev .   
 docker run -v ~/code/thriveeupdate:/thriveeupdate -p 8083:80 --rm thriveeupdate:dev 
 
-
+---
 ## set up image: ubuntu of thriveethemeupdate
 ### pull image
 ```
