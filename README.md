@@ -44,7 +44,7 @@ docker rmi $(docker images -q)
 ```
 
 ---
-# set up image: ubuntu of thriveethemeupdate
+# set up image of thriveethemeupdate based on ubuntu:16.04
 ### pull image
 ```
 docker pull ubuntu:16.04
