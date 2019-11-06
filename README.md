@@ -35,8 +35,16 @@ npm start
 docker build -t thriveeupdate:dev .   
 docker run -v ~/code/thriveeupdate:/thriveeupdate -p 8083:80 --rm thriveeupdate:dev 
 
+
+### del all dockers
+```
+docker stop $(docker ps -aq)    
+docker rm $(docker ps -aq)    
+docker rmi $(docker images -q)   
+```
+
 ---
-## set up image: ubuntu of thriveethemeupdate
+# set up image: ubuntu of thriveethemeupdate
 ### pull image
 ```
 docker pull ubuntu:16.04
@@ -72,14 +80,7 @@ nano
 docker commit container image:tag
 
 
-# more docker 
 
-### del all dockers
-```
-docker stop $(docker ps -aq)    
-docker rm $(docker ps -aq)    
-docker rmi $(docker images -q)   
-```
 
 
 
