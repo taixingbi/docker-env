@@ -35,6 +35,10 @@ npm i
 npm start
 ```
 
+### go back sources code 
+```
+cd ~/code/thriveethemeupdate
+```
 
 ### del all dockers
 ```
