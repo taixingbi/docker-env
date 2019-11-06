@@ -28,6 +28,7 @@ npm run build:dll
 ### access sources code  in mac
 ```
 cd ~/code/thriveethemeupdate && touch .env && open .env
+open .
 ```
 then copy paste .env file
 
