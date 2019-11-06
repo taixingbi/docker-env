@@ -19,7 +19,7 @@ docker pull taixingbi/thriveethemeupdate
 
 ### run image
 ```
-docker run -dit -p 8083:80/tcp -v ~/code:/code imageId
+docker run -dit -p 8083:80/tcp -v ~/code:/code taixingbi/thriveethemeupdate
 ```
 
 ### access container
