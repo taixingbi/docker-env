@@ -6,7 +6,7 @@ git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/thriveethemeup
 cd thriveethemeupdate
 touch .env
 ```
-
+then copy paste .env file
 ---
 # build docker of thriveethemeupdate 
 
