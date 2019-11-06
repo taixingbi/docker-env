@@ -7,6 +7,7 @@ cd thriveethemeupdate
 touch .env
 ```
 then copy paste .env file
+
 ---
 # build docker of thriveethemeupdate 
 
